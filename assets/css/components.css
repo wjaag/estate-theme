@@ -481,3 +481,140 @@
     }
 
 }
+
+/* ARCHIVE */
+
+
+.archive-search {
+
+padding:
+40px 0;
+
+}
+
+
+
+.archive-header {
+
+display:flex;
+
+justify-content:space-between;
+
+align-items:center;
+
+padding:
+40px 0;
+
+}
+
+
+
+.archive-toolbar {
+
+display:flex;
+
+gap:20px;
+
+align-items:center;
+
+}
+
+
+
+.property-layout {
+
+display:grid;
+
+grid-template-columns:
+300px 1fr;
+
+gap:40px;
+
+}
+
+
+
+.property-sidebar {
+
+background:
+var(--estate-light);
+
+padding:30px;
+
+border-radius:
+var(--estate-radius-lg);
+
+height:max-content;
+
+}
+
+
+
+.property-results {
+
+min-height:500px;
+
+}
+
+
+
+.pagination {
+
+display:flex;
+
+gap:10px;
+
+justify-content:center;
+
+padding:50px 0;
+
+}
+
+
+
+.pagination button {
+
+width:45px;
+
+height:45px;
+
+border-radius:50%;
+
+border:none;
+
+background:
+var(--estate-light);
+
+}
+
+
+@media(max-width:900px){
+
+
+.property-layout {
+
+grid-template-columns:
+1fr;
+
+}
+
+
+.property-sidebar {
+
+order:2;
+
+}
+
+
+.archive-header {
+
+flex-direction:column;
+
+align-items:flex-start;
+
+gap:20px;
+
+}
+
+}
+
