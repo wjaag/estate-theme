@@ -11,10 +11,12 @@
 
 <div class="property-card-image">
 
-<img 
-src=""
-alt=""
-/>
+<img
+src="<?php
+echo esc_url(
+estate_property()->image()
+);?>"
+alt="">
 
 </div>
 
@@ -30,18 +32,23 @@ Mieszkanie
 
 
 <h3>
-<?php echo esc_html
-(
-    estate_property_title()
-);?>
+<?php echo 
+    esc_html(
+    estate_property()->title()
+    );
+?>
 </h3>
 
 
 <p>
 
-<?php echo esc_html(
-estate_property_location()
-); ?>
+<?php
+
+echo esc_html(
+estate_property()->location()
+);
+
+?>
 
 </p>
 
@@ -71,9 +78,11 @@ estate_property_location()
 
 
 <strong>
-<?php echo esc_html(
-estate_property_price()
-); ?>
+<?php
+echo esc_html(
+estate_property()->price()
+);
+?>
 </strong>
 
 
