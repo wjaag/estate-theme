@@ -1,44 +1,63 @@
 <?php
 /**
- * Title: Hero Search
+ * Title: Property Search Hero
  * Slug: estate-theme/hero-search
  * Categories: estate
  */
 ?>
 
-<!-- wp:cover {"dimRatio":40,"minHeight":650} -->
+<!-- wp:cover {"minHeight":720,"align":"full"} -->
 
 <div class="wp-block-cover">
 
 <div class="wp-block-cover__inner-container">
 
+
 <!-- wp:heading {"level":1} -->
 <h1>
-Znajdź swoje wymarzone miejsce
+Znajdź nieruchomość swoich marzeń
 </h1>
 <!-- /wp:heading -->
 
 
 <!-- wp:paragraph -->
 <p>
-Oferty nieruchomości dopasowane do Twoich potrzeb
+Domy, mieszkania i lokale w najlepszych lokalizacjach.
 </p>
 <!-- /wp:paragraph -->
 
 
+<!-- wp:group {"className":"property-search-box"} -->
+
+<div class="wp-block-group property-search-box">
+
+
 <!-- wp:buttons -->
+
 <div class="wp-block-buttons">
+
 
 <!-- wp:button -->
 <div class="wp-block-button">
 <a class="wp-block-button__link">
-Szukaj nieruchomości
+Kupuję
 </a>
 </div>
 <!-- /wp:button -->
 
+
+<!-- wp:button -->
+<div class="wp-block-button">
+<a class="wp-block-button__link">
+Wynajmuję
+</a>
 </div>
 <!-- /wp:buttons -->
+
+
+</div>
+
+<!-- /wp:group -->
 
 
 </div>

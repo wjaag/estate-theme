@@ -38,3 +38,58 @@ transform:
 translateY(-8px);
 
 }
+
+.property-search-box {
+
+background:white;
+padding:30px;
+border-radius:20px;
+
+}
+
+
+.section-properties {
+
+padding:
+80px 0;
+
+}
+
+
+.property-card {
+
+padding:30px;
+background:white;
+border-radius:20px;
+
+box-shadow:
+0 10px 40px rgba(0,0,0,.08);
+
+}
+
+
+.type-card,
+.location-grid div,
+.agent-card {
+
+padding:40px;
+
+border-radius:20px;
+
+background:
+var(--estate-light);
+
+transition:.3s;
+
+}
+
+
+.type-card:hover,
+.location-grid div:hover,
+.agent-card:hover {
+
+transform:
+translateY(-6px);
+
+}
+
