@@ -29,17 +29,15 @@ function estate_theme_assets() {
         .'/assets/css/search.css',
         [],
         '1.0'
+    );
 
-        wp_enqueue_script(
-            'estate-animation',
-            get_templet_directory_uri()
-            .'/assets/js/animations.js',
-            [],
-            '1.0',
-            true
-
-        );
-        
+    wp_enqueue_script(
+        'estate-animation',
+        get_templet_directory_uri()
+        .'/assets/js/animations.js',
+        [],
+        '1.0',
+        true
     );
 
 }

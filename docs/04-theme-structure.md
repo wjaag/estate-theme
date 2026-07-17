@@ -26,3 +26,13 @@ UI components
 
 animations.css
 motion system
+
+
+## Responsive
+
+Theme follows mobile-first approach.
+
+All components must support:
+- mobile
+- tablet
+- desktop
