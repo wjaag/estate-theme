@@ -618,3 +618,22 @@ gap:20px;
 
 }
 
+.details-grid span {
+
+display:block;
+
+font-size:13px;
+
+opacity:.7;
+
+margin-bottom:8px;
+
+}
+
+
+.details-grid strong {
+
+font-size:18px;
+
+}
+
