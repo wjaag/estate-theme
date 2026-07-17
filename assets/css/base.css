@@ -1,0 +1,19 @@
+.site-header {
+    padding: 20px 0;
+}
+
+.site-footer {
+    padding: 60px 0;
+}
+
+
+.wp-block-button__link {
+    border-radius: 12px;
+    padding: 14px 28px;
+    transition: .3s ease;
+}
+
+
+.wp-block-button__link:hover {
+    transform: translateY(-3px);
+}
