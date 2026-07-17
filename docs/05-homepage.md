@@ -1,25 +1,19 @@
 # Homepage
 
-Structure inspired by RealHomes Ultra.
+Homepage follows RealHomes Ultra structure.
 
-## Sections
+Sections:
 
-1. Header
-2. Hero Search
-3. Featured Properties
-4. Property Types
-5. Locations
-6. Agents
-7. Testimonials
-8. Blog
-9. CTA
-10. Footer
+1. Hero Search
+2. Featured Properties
+3. Property Types
+4. Locations
+5. Agents
 
 
-## Status
+Current state:
 
-Hero:
-initial version
+Static components.
 
-Data source:
-static / future Estate Engine
+Next:
+Connect with Estate Engine data.
