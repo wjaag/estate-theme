@@ -122,3 +122,48 @@ img {
     }
 
 }
+
+[data-animation="fade-up"] {
+
+opacity:0;
+
+transform:
+translateY(40px);
+
+transition:
+.8s ease;
+
+}
+
+
+[data-animation="fade-up"].active {
+
+opacity:1;
+
+transform:none;
+
+}
+
+
+
+[data-animation="fade-scale"] {
+
+opacity:0;
+
+transform:
+scale(.95);
+
+transition:
+.8s ease;
+
+}
+
+
+[data-animation="fade-scale"].active {
+
+opacity:1;
+
+transform:
+scale(1);
+
+}

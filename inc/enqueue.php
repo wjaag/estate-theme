@@ -40,6 +40,16 @@ function estate_theme_assets() {
         true
     );
 
+    wp_enqueue_script(
+        'estate-interactions',
+        get_template_directory_uri()
+        .'/assets/js/interactons.js',
+        [],
+        '1.0',
+        true
+        
+    );
+
 }
 
 add_action(

@@ -3,19 +3,20 @@ document.addEventListener(
 ()=>{
 
 
-const elements =
+const items =
 document.querySelectorAll(
 "[data-animation]"
 );
 
 
+
 const observer =
 new IntersectionObserver(
-entries=>{
+(entries)=>{
 
 
 entries.forEach(
-entry=>{
+(entry)=>{
 
 
 if(entry.isIntersecting){
@@ -24,17 +25,32 @@ entry.target.classList.add(
 "active"
 );
 
+
+observer.unobserve(
+entry.target
+);
+
 }
+
 
 });
 
 
+},
+{
+threshold:0.15
 }
 );
 
 
-elements.forEach(
-el=>observer.observe(el)
+
+items.forEach(
+(item)=>{
+
+observer.observe(item);
+
+}
+
 );
 
 
