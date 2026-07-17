@@ -30,7 +30,10 @@ Mieszkanie
 
 
 <h3>
-Nowoczesny apartament
+<?php echo esc_html
+(
+    estate_property_title()
+);?>
 </h3>
 
 
@@ -66,7 +69,9 @@ Warszawa Centrum
 
 
 <strong>
-850 000 zł
+<?php echo esc_html(
+estate_property_price()
+); ?>
 </strong>
 
 
