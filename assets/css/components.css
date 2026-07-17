@@ -143,3 +143,55 @@ border-radius:16px;
 
 }
 
+.property-header {
+
+display:flex;
+
+justify-content:
+space-between;
+
+align-items:center;
+
+padding:
+50px 0;
+
+}
+
+
+.property-price {
+
+font-size:
+36px;
+
+font-weight:
+700;
+
+color:
+var(--estate-primary);
+
+}
+
+.details-grid {
+
+display:grid;
+
+grid-template-columns:
+repeat(4,1fr);
+
+gap:20px;
+
+}
+
+
+.details-grid div {
+
+padding:25px;
+
+background:
+var(--estate-light);
+
+border-radius:
+18px;
+
+}
+

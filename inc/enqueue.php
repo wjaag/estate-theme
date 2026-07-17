@@ -23,6 +23,14 @@ function estate_theme_assets() {
         '1.0'
     );
 
+    wp_enqueue_style(
+        'estate-search',
+        get_template_directory_uri()
+        .'/assets/css/search.css',
+        [],
+        '1.0'
+    );
+
 }
 
 add_action(

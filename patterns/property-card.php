@@ -37,9 +37,11 @@ Mieszkanie
 </h3>
 
 
-<p class="property-location">
+<p>
 
-Warszawa Centrum
+<?php echo esc_html(
+estate_property_location()
+); ?>
 
 </p>
 
