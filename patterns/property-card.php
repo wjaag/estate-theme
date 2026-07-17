@@ -26,7 +26,17 @@ alt="">
 
 <div class="property-card-type">
 
-Mieszkanie
+<span class="property-badge">
+
+<?php
+
+echo esc_html(
+estate_card_badge()
+);
+
+?>
+
+</span>
 
 </div>
 
@@ -55,21 +65,11 @@ estate_property()->location()
 
 <div class="property-meta">
 
-
-<span>
-72 m²
-</span>
-
-
-<span>
-3 pokoje
-</span>
-
-
-<span>
-4 piętro
-</span>
-
+<?php
+estate_render_fields(
+    estate_card_type()
+);
+?>
 
 </div>
 
@@ -77,12 +77,23 @@ estate_property()->location()
 <div class="property-footer">
 
 
-<strong>
+<strong class="property-price">
+
+
 <?php
+
 echo esc_html(
 estate_property()->price()
 );
+
+
+echo esc_html(
+estate_card_price_label()
+);
+
 ?>
+
+
 </strong>
 
 

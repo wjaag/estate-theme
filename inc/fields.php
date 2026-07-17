@@ -7,88 +7,96 @@ function estate_property_schema(){
 return [
 
 
-'apartment'=>[
+    'apartment'=>[
 
+        'area'=>[
+            'label'=>'Powierzchnia',
+            'unit'=>'m²'
+        ],
 
-'area'=>[
-'label'=>'Powierzchnia',
-'unit'=>'m²'
-],
+        'rooms'=>[
+            'label'=>'Liczba pokoi'
+        ],
 
+        'floor'=>[
+            'label'=>'Piętro'
+        ],
 
-'rooms'=>[
-'label'=>'Liczba pokoi'
-],
+        'elevator'=>[
+            'label'=>'Winda'
+        ],
 
+        'balcony'=>[
+            'label'=>'Balkon'
+        ]
 
-'floor'=>[
-'label'=>'Piętro'
-],
-
-
-'elevator'=>[
-'label'=>'Winda'
-],
-
-
-'balcony'=>[
-'label'=>'Balkon'
-]
-
-
-],
+    ],
 
 
 
-'house'=>[
+    'house'=>[
 
+        'area'=>[
+            'label'=>'Powierzchnia domu',
+            'unit'=>'m²'
+        ],
 
-'area'=>[
-'label'=>'Powierzchnia domu',
-'unit'=>'m²'
-],
+        'plot'=>[
+            'label'=>'Powierzchnia działki',
+            'unit'=>'m²'
+        ],
 
+        'garage'=>[
+            'label'=>'Garaż'
+        ],
 
-'plot'=>[
-'label'=>'Powierzchnia działki',
-'unit'=>'m²'
-],
+        'garden'=>[
+            'label'=>'Ogród'
+        ]
 
-
-'garage'=>[
-'label'=>'Garaż'
-],
-
-
-'garden'=>[
-'label'=>'Ogród'
-]
-
-
-],
+    ],
 
 
 
-'commercial'=>[
+    'commercial'=>[
+
+        'area'=>[
+            'label'=>'Powierzchnia',
+            'unit'=>'m²'
+        ],
+
+        'purpose'=>[
+            'label'=>'Przeznaczenie'
+        ],
+
+        'parking'=>[
+            'label'=>'Parking'
+        ]
+
+    ],
 
 
-'area'=>[
-'label'=>'Powierzchnia',
-'unit'=>'m²'
-],
 
+    'common'=>[
 
-'purpose'=>[
-'label'=>'Przeznaczenie'
-],
+        'status'=>[
+            'label'=>'Status',
 
+            'type'=>'select',
 
-'parking'=>[
-'label'=>'Parking'
-]
+            'options'=>[
 
+                'available'=>'Dostępna',
 
-]
+                'reserved'=>'Rezerwacja',
+
+                'sold'=>'Sprzedana'
+
+            ]
+
+        ]
+
+    ]
 
 
 ];

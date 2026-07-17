@@ -637,3 +637,49 @@ font-size:18px;
 
 }
 
+.property-badge {
+
+display:inline-block;
+
+padding:
+
+8px 14px;
+
+
+border-radius:
+
+999px;
+
+
+background:
+
+var(--estate-primary);
+
+
+color:white;
+
+
+font-size:
+
+13px;
+
+
+font-weight:
+
+600;
+
+}
+
+
+.property-price {
+
+font-size:
+
+24px;
+
+font-weight:
+
+700;
+
+}
+
