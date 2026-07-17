@@ -22,3 +22,13 @@ Estate Engine:
 - data
 - business logic
 - API
+
+## Folder Structure
+
+## Development
+
+## Coding Standards
+
+## Roadmap
+
+## License

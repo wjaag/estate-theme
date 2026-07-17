@@ -1,19 +1,42 @@
-<!-- wp:template-part {"slug":"header","tagName":"header"} /-->
+<?php
 
-<!-- wp:pattern {"slug":"estate-theme/hero-search"} /-->
+get_header();
 
-<!-- wp:pattern {"slug":"estate-theme/featured-properties"} /-->
+?>
+
+
+<main class="site-container">
+
+
+<?php
+
+echo do_blocks(
+'
+<!-- wp:pattern {"slug":"estate-theme/hero-premium"} /-->
+
+<!-- wp:pattern {"slug":"estate-theme/property-search"} /-->
 
 <!-- wp:pattern {"slug":"estate-theme/property-types"} /-->
 
-<!-- wp:pattern {"slug":"estate-theme/locations"} /-->
+<!-- wp:pattern {"slug":"estate-theme/property-grid"} /-->
 
-<!-- wp:pattern {"slug":"estate-theme/agents"} /-->
+<!-- wp:pattern {"slug":"estate-theme/location-grid"} /-->
 
-<!-- wp:pattern {"slug":"estate-theme/testimonials"} /-->
-
-<!-- wp:pattern {"slug":"estate-theme/blog"} /-->
+<!-- wp:pattern {"slug":"estate-theme/agent-grid"} /-->
 
 <!-- wp:pattern {"slug":"estate-theme/cta"} /-->
+'
+);
 
-<!-- wp:template-part {"slug":"footer","tagName":"footer"} /-->
+
+?>
+
+
+</main>
+
+
+<?php
+
+get_footer();
+
+?>
