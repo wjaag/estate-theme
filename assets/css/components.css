@@ -1,0 +1,40 @@
+.site-header {
+
+padding:
+24px 0;
+
+}
+
+
+.site-footer {
+
+padding:
+80px 0;
+
+background:
+var(--estate-dark);
+
+color:white;
+
+}
+
+
+.property-card {
+
+border-radius:
+var(--estate-radius);
+
+overflow:hidden;
+
+transition:
+transform .3s ease;
+
+}
+
+
+.property-card:hover {
+
+transform:
+translateY(-8px);
+
+}

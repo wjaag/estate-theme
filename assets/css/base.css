@@ -1,19 +1,25 @@
-.site-header {
-    padding: 20px 0;
-}
+:root {
 
-.site-footer {
-    padding: 60px 0;
-}
+--estate-primary:#1B6EF3;
+--estate-dark:#111827;
+--estate-light:#F7F8FA;
+--estate-radius:16px;
 
-
-.wp-block-button__link {
-    border-radius: 12px;
-    padding: 14px 28px;
-    transition: .3s ease;
 }
 
 
-.wp-block-button__link:hover {
-    transform: translateY(-3px);
+body {
+
+font-family:
+Inter,
+system-ui,
+sans-serif;
+
+}
+
+
+.wp-site-blocks {
+
+overflow:hidden;
+
 }

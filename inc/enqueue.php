@@ -1,0 +1,31 @@
+<?php
+
+function estate_theme_assets() {
+
+    wp_enqueue_style(
+        'estate-base',
+        get_template_directory_uri() . '/assets/css/base.css',
+        [],
+        '1.0'
+    );
+
+    wp_enqueue_style(
+        'estate-components',
+        get_template_directory_uri() . '/assets/css/components.css',
+        [],
+        '1.0'
+    );
+
+    wp_enqueue_style(
+        'estate-animation',
+        get_template_directory_uri() . '/assets/css/animations.css',
+        [],
+        '1.0'
+    );
+
+}
+
+add_action(
+    'wp_enqueue_scripts',
+    'estate_theme_assets'
+);
