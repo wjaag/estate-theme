@@ -725,3 +725,28 @@ box-shadow:
 0 15px 30px rgba(27,110,243,.25);
 
 }
+
+.estate-cta {
+
+padding:80px 40px;
+
+border-radius:
+var(--estate-radius-lg);
+
+background:
+var(--estate-dark);
+
+color:white;
+
+text-align:center;
+
+}
+
+
+.estate-cta h2 {
+
+font-size:
+clamp(32px,5vw,56px);
+
+}
+
