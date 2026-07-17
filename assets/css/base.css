@@ -4,7 +4,10 @@
 --estate-dark:#111827;
 --estate-light:#F7F8FA;
 --estate-radius:16px;
-
+--container-mobile:20px;
+--container-desktop:1200px;
+--section-spacing-mobile:50px;
+--section-spacing-desktop:100px;
 }
 
 
@@ -23,3 +26,30 @@ sans-serif;
 overflow:hidden;
 
 }
+
+.site-container {
+
+width:100%;
+
+padding-left:
+var(--container-mobile);
+
+padding-right:
+var(--container-mobile);
+
+}
+
+
+@media(min-width:1025px){
+
+.site-container{
+
+max-width:
+var(--container-desktop);
+
+margin:auto;
+
+}
+
+}
+
