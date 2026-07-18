@@ -1,0 +1,17 @@
+storage/
+
+wordpress/
+
+node_modules/
+
+vendor/
+
+.env
+
+.idea/
+
+.vscode/
+
+Thumbs.db
+
+.DS_Store
